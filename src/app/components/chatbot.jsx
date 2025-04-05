@@ -12,7 +12,6 @@ import {
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-// Função para parsear Markdown simples com espaçamento maior
 const parseMarkdown = (text) => {
   const lines = text.split("\n");
   const elements = [];
