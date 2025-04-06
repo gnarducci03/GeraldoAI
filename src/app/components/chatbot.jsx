@@ -237,7 +237,7 @@ export default function Chatbot() {
       >
         <div className="flex items-center gap-4">
           <Image
-            src="/geraldo.jpeg"
+            src="/geraldo.png"
             alt="Geraldo AI"
             width={60}
             height={60}
