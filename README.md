@@ -1,7 +1,6 @@
 GeraldoAI
 1. O que é o projeto
-GeraldoAI é uma aplicação web desenvolvida com Next.js, projetada para fornecer funcionalidades relacionadas à inteligência artificial. Embora detalhes específicos sobre suas funcionalidades não estejam descritos no repositório, a estrutura sugere que o projeto serve como uma base para aplicações que integram recursos de IA, possivelmente utilizando APIs externas ou modelos personalizados.
-
+GeraldoAI é uma aplicação web desenvolvida com Next.js, projetada para fornecer funcionalidades relacionadas à inteligência artificial. 
 2. Tecnologias utilizadas
 Next.js: Framework React para desenvolvimento de aplicações web com renderização do lado do servidor.
 
@@ -26,18 +25,13 @@ Gerenciador de pacotes: npm, yarn, pnpm ou bun
 Passos
 Clone o repositório
 
-bash
-Copiar
-Editar
+
 git clone https://github.com/gnarducci03/GeraldoAI.git
 cd GeraldoAI
 Instale as dependências
 
 Utilize o gerenciador de pacotes de sua preferência:
 
-bash
-Copiar
-Editar
 npm install
 # ou
 yarn install
@@ -45,11 +39,9 @@ yarn install
 pnpm install
 # ou
 bun install
+
 Inicie o servidor de desenvolvimento
 
-bash
-Copiar
-Editar
 npm run dev
 # ou
 yarn dev
