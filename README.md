@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+GeraldoAI
+1. O que é o projeto
+GeraldoAI é uma aplicação web desenvolvida com Next.js, projetada para fornecer funcionalidades relacionadas à inteligência artificial. Embora detalhes específicos sobre suas funcionalidades não estejam descritos no repositório, a estrutura sugere que o projeto serve como uma base para aplicações que integram recursos de IA, possivelmente utilizando APIs externas ou modelos personalizados.
 
-## Getting Started
+2. Tecnologias utilizadas
+Next.js: Framework React para desenvolvimento de aplicações web com renderização do lado do servidor.
 
-First, run the development server:
+TypeScript: Superset do JavaScript que adiciona tipagem estática ao código.
 
-```bash
+Tailwind CSS: Framework CSS utilitário para estilização rápida e responsiva.
+
+PostCSS: Ferramenta para transformar estilos CSS com plugins JavaScript.
+
+ESLint: Ferramenta de linting para identificar e corrigir problemas no código.
+
+Vercel: Plataforma de hospedagem otimizada para aplicações Next.js.
+
+3. Como rodar localmente
+Siga os passos abaixo para configurar e executar o projeto em seu ambiente local:
+
+Pré-requisitos
+Node.js instalado (recomendado: versão 14 ou superior)
+
+Gerenciador de pacotes: npm, yarn, pnpm ou bun
+
+Passos
+Clone o repositório
+
+bash
+Copiar
+Editar
+git clone https://github.com/gnarducci03/GeraldoAI.git
+cd GeraldoAI
+Instale as dependências
+
+Utilize o gerenciador de pacotes de sua preferência:
+
+bash
+Copiar
+Editar
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
+Inicie o servidor de desenvolvimento
+
+bash
+Copiar
+Editar
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
-```
+Acesse a aplicação
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra seu navegador e vá para http://localhost:3000 para visualizar a aplicação em execução.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Observações
+O arquivo principal da aplicação está localizado em src/app/page.tsx.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+A aplicação utiliza next/font para otimização e carregamento automático de fontes, como a fonte Geist.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
