@@ -27,7 +27,9 @@ Clone o repositório
 
 
 git clone https://github.com/gnarducci03/GeraldoAI.git
+
 cd GeraldoAI
+
 Instale as dependências
 
 Utilize o gerenciador de pacotes de sua preferência:
